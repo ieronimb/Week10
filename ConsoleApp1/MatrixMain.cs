@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Week10.Classses;
 
-namespace ConsoleApp1
+namespace MatrixMain
 {
     class MatrixMain
     {
