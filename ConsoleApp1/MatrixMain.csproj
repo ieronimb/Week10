@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E359AA77-1657-40BB-A7DD-B07ECFEB17E0}</ProjectGuid>
+    <ProjectGuid>{96C279EC-46C3-4E05-80B3-0141A4A56AE4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Week10</RootNamespace>
-    <AssemblyName>Week10</AssemblyName>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class\GenericList.cs" />
-    <Compile Include="GenericListMain.cs" />
+    <Compile Include="Class\Matrix.cs" />
+    <Compile Include="MatrixMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

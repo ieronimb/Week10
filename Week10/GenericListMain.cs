@@ -27,10 +27,17 @@ namespace Week10
             //Min and max in the list:
             int minIntegerElement = integerCheck.Min();
             int maxIntegerElement = integerCheck.Max();
+
+            //Remove element
+            integerCheck.RemoveElement(0);
+            Console.WriteLine("\nList after removing element:");
+            integerCheck.ToString();
+            
+
             Console.WriteLine("\nThe min element is {0}" , minIntegerElement);
-            Console.WriteLine("The max integer element is {0}",maxIntegerElement);
-            Console.WriteLine("Integer list after cleared out:");
+            Console.WriteLine("The max integer element is {0}",maxIntegerElement);          
             integerCheck.ClearList();
+            Console.WriteLine("Integer list after cleared out.");
             integerCheck.ToString();
 
             Console.ReadKey();
